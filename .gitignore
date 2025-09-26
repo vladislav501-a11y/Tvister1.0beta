@@ -1,0 +1,15 @@
+.DS_Store
+.build
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Runner.xcworkspace/
+**/GeneratedPluginRegistrant.*
+.idea/
+.vscode/
+.gradle/
+build/
