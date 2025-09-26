@@ -1,0 +1,28 @@
+---
+
+## pubspec.yaml
+
+```yaml
+name: tvister
+description: Tvister v1.0.0-beta
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  web_socket_channel: ^2.4.0
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  file_picker: ^5.2.2
+  provider: ^6.0.5
+  uuid: ^3.0.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
